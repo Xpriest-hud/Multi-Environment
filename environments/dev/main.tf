@@ -66,5 +66,5 @@ module "monitoring" {
   asg_name      = module.compute.asg_name
   db_identifier = module.database.db_identifier  # Adjust if module.database exposes identifier separately
 
-  alert_emails = ["adediranoluwadamilare@gmail.com"]
+  alert_emails = ["Your Email address"]
 }
